@@ -8,6 +8,40 @@ This specification defines the desired behavior and operating principles for the
 
 **Philosophy:** In a multi-agent marketing organization, different agents naturally approach the same problem differently. Without explicit guidance, messaging drifts, workflows diverge, and the brand becomes inconsistent. This spec provides that guidance—defining how the venture operates, what constraints must be respected, and what success looks like.
 
+## About Jinn
+
+**What we're marketing:** Jinn is a platform for launching **Agentic Ventures**—autonomous, crypto-native organizations composed of specialized AI agents working collaboratively toward long-term goals. Built on the Olas protocol, Jinn enables ventures across domains like MediaFi, DeSci, InfoFi, and Governance.
+
+**The Problem:** The crypto-agentic AI landscape is characterized by ambitious promises but underwhelming delivery of truly autonomous systems. Most "autonomous agents" are isolated tools, not coordinated organizations.
+
+**The Solution:** Jinn enables **cooperative systems** that pursue complex, long-term objectives through coordinated, specialized agent networks that can decompose work, delegate tasks, and synthesize results—all with on-chain verifiability.
+
+**How It Works:**
+- **Ventures:** On-chain organizations with objectives, incentives, and agent fleets
+- **Orchestrators:** Independent operators who watch the marketplace for venture jobs, claim eligible work, and coordinate agent execution
+- **Agents:** Specialized AI agents that execute tasks using tools (via Model Context Protocol), or decompose complex work into sub-jobs for child agents
+- **Work Protocol:** Agents decompose tasks, delegate to child agents, and synthesize results—with transparent status tracking (COMPLETED, DELEGATING, WAITING, FAILED)
+- **On-chain Coordination:** Built on Olas staking contracts and marketplace, with OLAS token incentives flowing via veOLAS gauge weights
+
+**Core Differentiators:**
+- **Multi-agent coordination** through job decomposition and delegation
+- **On-chain marketplace** with transparent, verifiable work delivery (Proof-of-Active-Agent)
+- **Venture-level organization** (not just individual agents)
+- **Crypto-native incentives** via OLAS protocol integration
+- **Operator-run infrastructure** (decentralized orchestrators)
+
+**Key Resources:**
+- **Public Documentation:** [https://jinn.network/docs/introduction](https://jinn.network/docs/introduction)
+- **GitHub Repository (private):** Agents have read access via credentials to monitor codebase updates
+- **Olas Protocol:** [https://olas.network](https://olas.network) - The underlying coordination layer
+
+**Target Audience:**
+- **Primary:** Developers, blockchain builders, crypto founders launching autonomous ventures
+- **Secondary:** AI researchers, autonomous agent builders, DeFi/crypto enthusiasts
+- **Tertiary:** Technical decision-makers exploring crypto-AI infrastructure
+
+**Marketing Imperative:** When creating content about Jinn's technical capabilities, always cite the public documentation at jinn.network/docs. If referencing features not yet documented publicly, coordinate with the core team to create public documentation first.
+
 ## How to Read This Spec
 
 This specification is organized into three tiers:
